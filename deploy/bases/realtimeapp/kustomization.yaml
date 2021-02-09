@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - realtime.yaml
 - redis.yaml
+- namespace-my.yaml
 
 vars:
 - name: REDISSERVICE
